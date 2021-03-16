@@ -47,7 +47,7 @@ body {
   }
   
   .section-title {
-    padding-bottom: 40px;
+    padding-bottom: 5px;
   }
   
   .section-title h2 {
@@ -68,7 +68,7 @@ body {
     height: 1px;
     display: inline-block;
     background: #FFB100;
-    margin: 4px 10px;
+    margin: 4px 5px;
   }
   
   .section-title p {
@@ -83,7 +83,7 @@ body {
   
 
   .about {
-    padding-top: 150px;
+    padding-top: 5px;
   }
   
   .about .content h3 {
@@ -145,7 +145,7 @@ body {
 
 .card {
     border-radius: 20px !important;
-    box-shadow: 4px 4px 5px 0px #FFA500;
+    box-shadow: 5px 5px 5px 0px #FFA500;
     transition: 0.8s;
     background-color: white !important;
 }
@@ -186,6 +186,12 @@ a:hover {
 a:active {
   text-decoration: none;
   color:black!important;
+}
+
+@media (max-width: 992px) {
+  img{
+    height:220px
+  }
 }
 
 
