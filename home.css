@@ -140,5 +140,53 @@ body {
     color: #fff;
     text-decoration: none;
   }
-  
+
+
+
+.card {
+    border-radius: 20px !important;
+    box-shadow: 4px 4px 5px 0px #FFA500;
+    transition: 0.8s;
+    background-color: white !important;
+}
+
+.card-header {
+    border-radius: 20px !important
+}
+
+.card-footer {
+    border-radius: 20px !important
+}
+
+.container-fluid:hover .card:not(:hover) {
+    transform: scale(0.9)
+}
+
+@media (max-width: 1000px) {
+    .container-fluid:hover .card:not(:hover) {
+        transform: scale(1)
+    }
+}
+
+a:link {
+  text-decoration: none;
+  color:black!important;
+}
+
+a:visited {
+  text-decoration: none;
+  color:black!important;
+}
+
+a:hover {
+  text-decoration: none;
+  color:black!important;
+}
+
+a:active {
+  text-decoration: none;
+  color:black!important;
+}
+
+
   
